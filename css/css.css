@@ -20,8 +20,8 @@
     border: 1px solid rgba(172, 67, 199, 0.37);
     transition: 0.5s ease;
 
-@media (max-width:1080px){
-    width: 450px;
+@media (max-width:500px){
+    width: 300px;
 }
 }
 /*черная надпись  в розовом блоке*/
