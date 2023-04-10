@@ -4,6 +4,24 @@
     border: 0;
     box-sizing: border-box;
 }
+
+.wrapper {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: 0 auto;
+    max-width: 800px;
+    display: flex;
+}
+/*сетка для уроков*/
+.wrapper_lessons {
+  
+    margin: 0 auto;
+    max-width: 600px;
+    justify-content: center;
+    
+
+}
+
 .menu {
     justify-content: center;
     margin-bottom: 20px;
@@ -20,8 +38,8 @@
     border: 1px solid rgba(172, 67, 199, 0.37);
     transition: 0.5s ease;
 
-@media (max-width:2000px){
-    width: 400px;
+@media (max-width:800px){
+    width: 450px;
 }
 }
 /*черная надпись  в розовом блоке*/
@@ -32,9 +50,6 @@
     font-size: 20px;
     padding-left: 100px;
     margin-top: -35px;
-
-
-
 }
 /*линия сбоку от номера*/
 .inscription::before {
